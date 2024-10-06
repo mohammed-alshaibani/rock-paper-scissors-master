@@ -23,20 +23,8 @@ To run the game locally, follow these steps:
 
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/rock-paper-scissors-game.git
+git clone https://github.com/mohammed-alshaibani/rock-paper-scissors-master.git
 Navigate to the project directory:
 
 cd rock-paper-scissors-game
 Open the index.html file in your web browser.
-
-## Screenshots
-
-Future Improvements
-Add difficulty levels (easy, medium, hard).
-Implement multiplayer mode.
-Add animations to make the game more dynamic.
-Enhance mobile optimization.
-License
-This project is licensed under the MIT License.
-
-Feel free to adjust any sections based on your specific implementation or desired details!
