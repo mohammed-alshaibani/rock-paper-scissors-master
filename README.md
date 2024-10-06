@@ -23,7 +23,7 @@ To run the game locally, follow these steps:
 
 Clone this repository to your local machine:
 
-git clone https://github.com/yourusername/rock-paper-scissors-game.git
+git clone https://github.com/mohammed-alshaibani/rock-paper-scissors-master.git
 Navigate to the project directory:
 
 cd rock-paper-scissors-game
