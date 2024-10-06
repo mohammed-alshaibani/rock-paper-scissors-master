@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateResultSection(result, userChoice, computerChoice, score) {
     const icons = {
-      rock: "./../images/icon-rock.svg",
-      paper: "./../images/icon-paper.svg",
-      scissors: "./../images/icon-scissors.svg",
+      rock: "./images/icon-rock.svg",
+      paper: "./images/icon-paper.svg",
+      scissors: "./images/icon-scissors.svg",
     };
 
     // Update the result text and score
