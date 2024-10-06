@@ -28,15 +28,3 @@ Navigate to the project directory:
 
 cd rock-paper-scissors-game
 Open the index.html file in your web browser.
-
-## Screenshots
-
-Future Improvements
-Add difficulty levels (easy, medium, hard).
-Implement multiplayer mode.
-Add animations to make the game more dynamic.
-Enhance mobile optimization.
-License
-This project is licensed under the MIT License.
-
-Feel free to adjust any sections based on your specific implementation or desired details!
