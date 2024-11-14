@@ -1,30 +1,58 @@
-## Rock, Paper, Scissors Game
-<h3>Welcome to the Rock, Paper, Scissors game, a classic hand game implemented in JavaScript. In this game, you can play against the computer, and the results will be displayed with both a numeric score and icons of the chosen actions.</h3>
+## Frontend Mentor Challenge Solution- Rock, Paper, Scissors 
+
+## Overview
+This project is a Rock, Paper, Scissors game developed using HTML, CSS, and JavaScript. The goal of this game is to test basic web development skills, focusing on interactivity, DOM manipulation, and responsive design. For an additional challenge, the code could be extended to include a Rock, Paper, Scissors, Lizard, Spock version.
 
 ## Features
-Interactive Gameplay: Play against the computer by selecting Rock, Paper, or Scissors.
-Live Score Tracking: Keep track of your score and the computer’s score during the game.
-Visual Feedback: Displays the chosen action using icons for Rock 🪨, Paper 📄, and Scissors ✂️.
-Responsive UI: The game is designed to be responsive and works well on both desktop and mobile devices.
-How to Play
-Start the Game: Choose either Rock, Paper, or Scissors by clicking the corresponding button.
-Computer’s Turn: The computer randomly selects one of the three options.
-Result: The winner is determined based on the following rules:
-Rock beats Scissors.
-Scissors beats Paper.
-Paper beats Rock.
-Score: The score is updated, and the game continues until you decide to stop.
-Technologies Used
-HTML5 for the structure of the game.
-CSS3 for the styling and layout.
-JavaScript for the game logic and interactivity.
-Installation and Setup
-To run the game locally, follow these steps:
+- **Simple UI**: Minimalistic design using Tailwind CSS.
+- **User Score Tracking**: User's score increases with each win and is displayed at the top.
+- **Game Logic**: Determines the winner based on user and computer choices.
+- **Play Again**: After each round, users can play again without refreshing the page.
+- **Icons**: Displays icons for user and computer choices.
+- **Responsive**: Game layout adjusts for different screen sizes.
 
-Clone this repository to your local machine:
+## File Structure
+- **`index.html`**: Contains the main HTML structure for the game.
+- **`style.css`**: Provides the styling for the game, using Tailwind CSS for rapid UI development.
+- **`index.js`**: JavaScript file containing the game logic and DOM manipulation.
 
-git clone https://github.com/mohammed-alshaibani/rock-paper-scissors-master.git
-Navigate to the project directory:
+## How to Play
+1. **Choose Your Move**: Select one of the options (Rock, Paper, or Scissors).
+2. **See the Result**: The game displays the computer's choice, the result of the round, and updates the score if you win.
+3. **Play Again**: Click the "Play Again" button to return to the selection screen and start another round.
 
+## Game Logic
+- **Choices**: Three choices are available: Rock, Paper, and Scissors.
+- **Random Computer Choice**: The computer randomly selects one of the choices each round.
+- **Determine Winner**: Based on the rules:
+  - Rock beats Scissors
+  - Scissors beats Paper
+  - Paper beats Rock
+- **Display Results**: The result of each round is displayed, showing both the user's and computer's choices.
+
+## Code Highlights
+
+### JavaScript Functions
+- **`playGame(userChoice)`**: Handles the game round, including calling helper functions to determine the computer's choice, the result, and updating the UI.
+- **`getRandomChoice()`**: Returns a random choice for the computer.
+- **`determineWinner(userChoice, computerChoice)`**: Determines and returns the result based on the user's and computer's choices.
+- **`updateResultSection(result, userChoice, computerChoice, score)`**: Updates the result display, showing icons and the current score.
+
+## Technologies Used
+- **HTML**: Structure of the game interface.
+- **CSS (Tailwind)**: Used for quick styling and responsive design.
+- **JavaScript**: Contains the game logic, score tracking, and DOM manipulation.
+
+## Future Enhancements
+- **Add Lizard and Spock Options**: Extend the game to include these options.
+- **Track Computer Score**: Add score tracking for the computer.
+- **Persistent Score**: Store score in `localStorage` to keep it even after refreshing the page.
+- **Animations**: Add animations for showing results and transitions.
+
+## Setup
+1. **Download or Clone** this repository.
+2. **Open `index.html`** in a browser to start playing the game.
+
+Enjoy the game, and challenge yourself to win against the computer!
 cd rock-paper-scissors-game
 Open the index.html file in your web browser.
